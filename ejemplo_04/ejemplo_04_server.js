@@ -6,16 +6,16 @@ function iniciar(route) {
     function onRequest(request, response) {
         var pathname = url.parse(request.url).pathname;
         console.log("Petición ("+(++numpeticiones)+") para " + pathname + " recibida.");
-        
-        var ruta = route(pathname);
 
         response.writeHead(200, {"Content-Type": "text/html"});
         response.write("<!DOCTYPE html>");
         response.write("<html>");
         response.write("<head><meta charset='UTF-8'><title>Ejemplo 04</title>");
-        response.write("<body><center><h2>"+ruta+"</h2><hr></center></body>");
-        response.write("Ejemplo 4")
-        response.end("</html>");
+        response.write("<body><center><h2>ruteando...</h2>");
+        
+        route(pathname, response);
+
+        response.end("</center></body></html>");
     }
 
     http.createServer(onRequest).listen(3000);
