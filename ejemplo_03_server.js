@@ -9,7 +9,7 @@ function iniciar() {
         response.write("<!DOCTYPE html>");
         response.write("<html>");
         response.write("<head><meta charset='UTF-8'><title>Ejemplo 3 [server]</title>");
-        response.write("<body><center><h2>Hola Mundo</h2><hr></body>");
+        response.write("<body><center><h2>Hola Mundo</h2><hr></center></body>");
         response.write("</html>")
     }
 
