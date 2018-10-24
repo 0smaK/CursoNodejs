@@ -1,8 +1,20 @@
 var express = require('express');
 var app = express();
 
-app.all('/', function(req, res) {
-    res.send("Hola Mundo!!!<br>Escuchando todos los puertos!!!");
+app.route("/")
+    .get(function(req, res) {
+        res.send("Has solicitado GET");
+    })
+    .post(function(req,res){
+        res.send("Has solicitado POST");
+    });
+
+app.put('/user', function (req, res){
+    res.send('Has hecho una petición PUT');
+});
+
+app.delete('/user', function (req, res){
+    res.send('Has hecho una petición DELETE');
 });
 
 app.listen(3000, function(){
