@@ -1,8 +1,13 @@
-# CursoNodejs
+# Curso NodeJs
+
+
+## Iniciar aplicación tipo 'ejemplo_xx'
 
 ```bash
-npm devstar
+node ./ejemplo_xx/ejemplo_xx.js
 ```
+
+## Iniciar aplicación tipo 'ejemplo_express_xx'
 
 ### Dependencias
 
