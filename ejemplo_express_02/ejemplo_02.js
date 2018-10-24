@@ -12,7 +12,7 @@ app.post('/', function(req, res) {
 */
 
 app.all('/', function(req, res) {
-    res.send("Hola Mundo!!!\nEscuchando todos los puertos");
+    res.send("Hola Mundo!!!<br>Escuchando todos los puertos!!!");
 });
 
 app.listen(3000, function(){
