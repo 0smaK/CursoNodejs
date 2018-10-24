@@ -10,7 +10,8 @@
     "nodemon": "^1.18.4"
   },
   "scripts": {
-    "start": "node ./ejemplo_express_02/ejemplo_02.js"
+    "start": "node ./ejemplo_express_02/ejemplo_02.js",
+    "devstar": "nodemon ./ejemplo_express_02/ejemplo_02.js"
   },
   "repository": {
     "type": "git",
