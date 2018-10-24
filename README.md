@@ -4,7 +4,7 @@
 npm devstar
 ```
 
-###Dependencias
+### Dependencias
 
 Nodemon (dependencia de desarrollador)
 
@@ -18,7 +18,7 @@ Express
 npm install express --save
 ```
 
-###Run Server
+### Run Server
 
 Iniciar mediante Nodemon:
 
