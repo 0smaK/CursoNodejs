@@ -6,9 +6,11 @@
   "dependencies": {
     "express": "^4.16.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./ejemplo_express_02/ejemplo_02.js"
   },
   "repository": {
     "type": "git",
