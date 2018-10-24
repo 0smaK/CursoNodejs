@@ -1,13 +1,27 @@
 # Curso NodeJs
 
 
-## Iniciar aplicación tipo 'ejemplo_xx'
+## Iniciar aplicación js con Node
 
 ```bash
 node ./ejemplo_xx/ejemplo_xx.js
 ```
 
-## Iniciar aplicación tipo 'ejemplo_express_xx'
+## Iniciar npm
+
+### Run Server
+
+Iniciar mediante Nodemon:
+
+```bash
+npm run devstart
+```
+
+Iniciar mediante npm:
+
+```bash
+npm start
+```
 
 ### Dependencias
 
@@ -23,16 +37,3 @@ Express
 npm install express --save
 ```
 
-### Run Server
-
-Iniciar mediante Nodemon:
-
-```bash
-npm run devstart
-```
-
-Iniciar mediante npm:
-
-```bash
-npm start
-```
