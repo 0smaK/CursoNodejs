@@ -4,6 +4,12 @@ var app = express();
 
 app.use(cookieParser());
 
+app.use(session({
+  secret: 'token-secreto',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { secure: false }
+}));
 
 app.get('/', function(req, res) {
     console.log('Cookies: ', req.cookies.vecesVisitada);
