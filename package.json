@@ -2,7 +2,7 @@
   "name": "pruebasexpress",
   "version": "1.0.0",
   "description": "pruebas express ",
-  "main": "./ejemplo_express_01/ejemplo_01.js",
+  "main": "./ejemplo_express_03b/ejemplo_03b.js",
   "dependencies": {
     "express": "^4.16.4"
   },
@@ -10,8 +10,8 @@
     "nodemon": "^1.18.4"
   },
   "scripts": {
-    "start": "node ./ejemplo_express_02/ejemplo_02.js",
-    "devstart": "nodemon ./ejemplo_express_02/ejemplo_02.js"
+    "start": "node ./ejemplo_express_03b/ejemplo_03b.js",
+    "devstart": "nodemon ./ejemplo_express_03b/ejemplo_03b.js"
   },
   "repository": {
     "type": "git",
