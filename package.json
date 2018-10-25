@@ -2,16 +2,17 @@
   "name": "pruebasexpress",
   "version": "1.0.0",
   "description": "pruebas express ",
-  "main": "./ejemplo_express_04/ejemplo_04.js",
+  "main": "./ejemplo_express_05/ejemplo_05_form.js",
   "dependencies": {
+    "cookie-parser": "^1.4.3",
     "express": "^4.16.4"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"
   },
   "scripts": {
-    "start": "node ./ejemplo_express_04/ejemplo_04.js",
-    "devstart": "nodemon ./ejemplo_express_04/ejemplo_04.js"
+    "start": "node ./ejemplo_express_05/ejemplo_05_form.js",
+    "devstart": "nodemon ./ejemplo_express_05/ejemplo_05_form.js"
   },
   "repository": {
     "type": "git",
