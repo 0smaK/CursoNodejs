@@ -2,7 +2,7 @@
   "name": "pruebasexpress",
   "version": "1.0.0",
   "description": "pruebas express ",
-  "main": "./ejemplo_express_05/ejemplo_05_form.js",
+  "main": "./ejemplo_mysql_conexion/ejemplo_02.js",
   "dependencies": {
     "cookie-parser": "^1.4.3",
     "express": "^4.16.4",
@@ -12,8 +12,8 @@
     "nodemon": "^1.18.4"
   },
   "scripts": {
-    "start": "node ./ejemplo_mysql_conexion/ejemplo_01.js",
-    "devstart": "nodemon ./ejemplo_mysql_conexion/ejemplo_01.js"
+    "start": "node ./ejemplo_mysql_conexion/ejemplo_02.js",
+    "devstart": "nodemon ./ejemplo_mysql_conexion/ejemplo_02.js"
   },
   "repository": {
     "type": "git",
