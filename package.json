@@ -11,8 +11,8 @@
     "nodemon": "^1.18.4"
   },
   "scripts": {
-    "start": "node ./ejemplo_express_07/ejemplo_07.js",
-    "devstart": "nodemon ./ejemplo_express_07/ejemplo_07.js"
+    "start": "node ./ejemplo_express_07/ejemplo_07b.js",
+    "devstart": "nodemon ./ejemplo_express_07/ejemplo_07b.js"
   },
   "repository": {
     "type": "git",

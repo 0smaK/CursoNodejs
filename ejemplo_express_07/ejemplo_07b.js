@@ -1,26 +1,13 @@
 var express = require('express');
 var app = express();
-
-/* 
-app.get('/user/:id([0-9]{5})', function (req, res, next) {
-  if(req.params.id>10000){
-      var err = new Error('User not found...');
-      err.status = 404;
-      next(err);
-  } else {
-      res.send('Got a GET request at /user with ID:'+req.params.id);
-  }
+app.get('/user/:id([a-z,0-9]{5,10})', function (req, res) {
+  res.send('<h2>Bienvenido, <span style="color:blue">'+req.params.id+'</span></h2><hr>');
 });
-*/   
 
-app.get('/user/:id([0-9]{5})', function (req, res) {
-  if(req.params.id>10000){
-       throw new Error('User not found...');
-  } else {
-      res.send('Has solicitado GET a /user con ID: '+req.params.id);
-  }
+app.get('/user/:id([a-z,0-9]{0,4})', function (req, res) {
+  res.send('<h2>ERROR</h2><hr>Introduce un usuario de 5 a 10 caracteres');
 });
-   
+
 app.use(function(err, req, res, next) {
   if (res.headersSent) {
     return next(err)
