@@ -9,9 +9,9 @@ node ./ejemplo_xx/ejemplo_xx.js
 
 ## Iniciar npm
 
-### Run Server
+### Run Server 
 
-Iniciar mediante Nodemon:
+Iniciar mediante Nodemon: _(MODIFICAR ANTES **package.json**)_ 
 
 ```bash
 npm run devstart
@@ -36,4 +36,11 @@ Express
 ```bash
 npm install express --save
 ```
+
+MySQL
+
+```bash
+npm install mysql -S
+```
+
 
