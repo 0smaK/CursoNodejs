@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  center
+    img(src='/images/1200px-MySQL.svg.png', alt='MySQL logo', style='width:400px; padding-bottom:50px')
+    h1 Registro de DNI
+    p Introduce tu DNI a continuación:
+    form(action="POST")
+      input(
+        type='text'
+        name='dni'
+        style='padding: 10px 25px; margin-left:5px; text-align: center; text-decoration: none; display: inline-block; font-size: 14px;'
+      )
+      input(
+        type='button'
+        name='enviar'
+        value='Buscar DNI'
+        style='background-color: #4CAF50; border: none; color: white; padding: 10px 25px; margin-left:5px; text-align: center; text-decoration: none; display: inline-block; font-size: 14px;'
+      )
+  
