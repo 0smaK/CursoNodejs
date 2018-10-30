@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <img style="margin-top:20px;" [src]="AngularLogo" />
+  <h1 onclick="this.style.color='red'" style="margin-bottom: 20px;">
+    Hola {{ nombre }}!
+  </h1>
+  <button class="iname">Nombre</button><input class="introducenombre" value="Introduce tu nombre" type="text" name="nombre_i"[(ngModel)]="nombre">
+  <br>
+
+</div>
+<router-outlet></router-outlet>
